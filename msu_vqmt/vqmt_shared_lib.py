@@ -465,7 +465,7 @@ def find(version_str=None):
         if not os.path.exists(dll_path):
             raise Exception("MSU VQMT dll was not found")
 
-            res = SharedInterface(dll_path)
+        res = SharedInterface(dll_path)
 
     else:
         raise Exception("Unknown OS, use SharedInterface constructor instead")

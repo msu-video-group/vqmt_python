@@ -21,9 +21,9 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     python_requires=">=3.5",
-    version='0.1',                             # version
+    version='0.2',                             # version
                                                # short description
-    url='https://videoprocessing.ai/vqmt-pip', # package URL
+    url='https://github.com/msu-video-group/vqmt_python', # package URL
     install_requires=['numpy'],                # list of packages this package depends
                                                # on.
     packages=['msu_vqmt'],              # List of module names that installing
